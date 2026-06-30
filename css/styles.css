@@ -1,0 +1,80 @@
+body{
+    background-color: #f8f9fa;
+}
+
+.hero{
+    background-color: #e7f1ff;
+    padding: 80px 20px;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* ===== CAROUSEL ===== */
+
+#carouselSaludMental{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#carouselSaludMental .carousel-item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.carousel-caption h3{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.carousel-caption p{
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+/* ===== LIST GROUP ===== */
+
+.list-group-item{
+    transition: 0.3s;
+}
+
+.list-group-item:hover{
+    background-color: #e7f1ff;
+}
+
+/* ===== FORMULARIO ===== */
+
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    margin-top: 50px;
+}
